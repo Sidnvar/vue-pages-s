@@ -2,21 +2,12 @@ var path = require('path')
 var webpack = require('webpack')
 
 module.exports = {
-  // entry: './src/main.js',
-  entry: './src/lib/index.js',
+  entry: './src/main.js',
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    filename: 'vue-pages-s.js',
-    library: 'VuePagesS',
-    libraryTarget: 'umd',
-    umdNamedDefine: true
+    filename: 'build.js'
   },
-  // output: {
-  //   path: path.resolve(__dirname, './dist'),
-  //   publicPath: '/dist/',
-  //   filename: 'build.js'
-  // },
   module: {
     rules: [
       {
