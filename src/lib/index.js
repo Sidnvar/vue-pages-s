@@ -1,5 +1,5 @@
 import vuePagesS from './vue-pages-s.vue' // 导入组件 
-const paykeyboard = { 
+const vuePages = { 
     install (Vue, options) { 
         Vue.component('vue-pages-s', vuePagesS) // vuePayKeyboard.name 组件的name属性 
         // 类似通过 this.$xxx 方式调用插件的 其实只是挂载到原型上而已  
@@ -10,7 +10,7 @@ const paykeyboard = {
 
 // 新增 
 if (typeof window !== 'undefined' && window.Vue) { 
-    window.Vue.use(paykeyboard); 
+    window.Vue.use(vuePages); 
 }
 
-export default paykeyboard // 导出..
+export default vuePages // 导出..
