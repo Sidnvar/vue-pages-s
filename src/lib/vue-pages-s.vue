@@ -38,7 +38,6 @@ export default {
             return this.count
         },
         createPage(){
-            debugger
             this._pageNoArr = [];
 
             // page enough

@@ -25,7 +25,8 @@ Vue.use(vuePagesS)
     :count="11"
     :pageNo="pageNo" 
     :pageCount="10" 
-    :pageShow="5" @spageEvent="pages"></vue-pages-s>
+    :pageShow="5" 
+    @spageEvent="pages"></vue-pages-s>
 ```
 
 可传属性
