@@ -1,6 +1,6 @@
 # vue-pages
 
-> A Vue.js project
+> 这是一个vue的翻页组件
 
 ## Build Setup
 
