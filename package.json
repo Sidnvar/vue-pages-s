@@ -1,7 +1,7 @@
 {
   "name": "vue-pages-s",
-  "description": "A Vue.js project",
-  "version": "1.0.2",
+  "description": "基于Vue开发的一个翻页组件",
+  "version": "1.0.3",
   "author": "sid",
   "license": "MIT",
   "private": false,
